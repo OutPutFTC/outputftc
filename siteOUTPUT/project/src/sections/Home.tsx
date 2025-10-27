@@ -1,4 +1,4 @@
-import { IMAGES } from 'dist\assets\images';
+import { IMAGES } from '../config/images';
 
 export default function Home() {
   return (
