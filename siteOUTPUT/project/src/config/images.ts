@@ -1,6 +1,6 @@
 export const IMAGES = {
   home: {
-    background: '/images/equipetodapremio.jpg',
+    background: 'assets/images/equipetodapremio.jpg',
   },
 
   team: {
