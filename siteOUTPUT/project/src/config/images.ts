@@ -1,6 +1,6 @@
 export const IMAGES = {
   home: {
-    background: '../images/equipetodapremio.jpg',
+    background: new URL('./images/equipetodapremio.jpg', import.meta.url).href,
   },
 
   team: {
