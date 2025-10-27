@@ -5,23 +5,23 @@ export const IMAGES = {
 
   team: {
     members: {
-      adamF: 'src/config/images/Adam.png',
-      alefS: 'src/config/images/Alef.png',
-      alexandreV: 'src/config/images/',
-      eduardoC: 'src/config/images/Eduardo.png',
-      isaacP: '/images/team/.jpg',
-      igorS: '/images/team/.jpg',
-      maximosP: 'src/config/images/Max.png',
-      natanS: 'src/config/images/Natan.png',
-      pietroD: 'src/config/images/Pietro.png',
-      sebastiaoP: 'src/config/images/Sebastiao.png',
+      adamF: new URL('./images/Adam.png', import.meta.url).href,
+      alefS: new URL('./images/Alef.png', import.meta.url).href,
+      alexandreV: new URL('./images/Alex.png', import.meta.url).href,
+      eduardoC: new URL('./images/Eduardo.png', import.meta.url).href,
+      isaacP: new URL('./images/Alef.png', import.meta.url).href,
+      igorS: new URL('./images/Alef.png', import.meta.url).href,
+      maximosP: new URL('./images/Max.png', import.meta.url).href,
+      natanS: new URL('./images/Natan.png', import.meta.url).href,
+      pietroD: new URL('./images/Pietro.png', import.meta.url).href,
+      sebastiaoP: new URL('./images/Sebastiao.png', import.meta.url).href,
     },
   },
 
   robot: {
-    pascal: 'src/config/images/fotoROBO (1).jpeg',
-    reveal: 'src/config/images/WhatsApp Video 2025-10-17 at 17.45.32 (1).mp4',
-    cad: 'src/config/images/even_higher.jpg',
+    pascal: new URL('./images/fotoROBO (1).jpeg', import.meta.url).href,
+    reveal: new URL('./images/WhatsApp Video 2025-10-17 at 17.45.32 (1).mp4', import.meta.url).href,
+    cad: new URL('./images/even_higher.jpg', import.meta.url).href,
   },
 
   sponsors: {
