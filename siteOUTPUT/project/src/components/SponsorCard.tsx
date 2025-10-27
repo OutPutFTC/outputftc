@@ -6,7 +6,7 @@ interface SponsorCardProps {
 export default function SponsorCard({ name, image }: SponsorCardProps) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 flex flex-col items-center aspect-square">
-      <div className="w-full h-full relative overflow-hidden bg-gray-100 flex items-center justify-center p-4">
+      <div className="w-full h-full relative overflow-hidden bg-orange-100 flex items-center justify-center p-4">
         <img
           src={image}
           alt={name}
