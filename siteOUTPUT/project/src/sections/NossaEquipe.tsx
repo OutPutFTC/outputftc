@@ -7,7 +7,7 @@ export default function NossaEquipe() {
   const members = [
     { name: 'Adam F.', image: IMAGES.team.members.adamF },
     { name: 'Álef S.', image: IMAGES.team.members.alefS },
-    { name: 'Alexandre V.', image: IMAGES.team.members.alexandreV },
+    //  { name: 'Alexandre V.', image: IMAGES.team.members.alexandreV },
     { name: 'Eduardo C.', image: IMAGES.team.members.eduardoC },
     // { name: 'Isaac P.', image: IMAGES.team.members.isaacP },
     // { name: 'Igor S.', image: IMAGES.team.members.igorS },
