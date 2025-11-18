@@ -33,7 +33,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://www.firstinspires.org/robotics/ftc"
+              href="outmentor.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-primaryOrange transition-colors duration-300 font-medium"
