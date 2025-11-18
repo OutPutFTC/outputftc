@@ -83,7 +83,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="block text-gray-700 hover:text-primaryOrange transition-colors duration-300 font-medium py-2"
           >
-            FTC Mentor
+            OUTMENTOR
           </a>
           <a
             href="https://www.instagram.com/outputftc/"
